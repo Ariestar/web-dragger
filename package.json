@@ -1,7 +1,7 @@
 {
-  "name": "monaco-dragger",
+  "name": "web-dragger",
   "version": "0.1.0",
-  "description": "Userscript bringing block drag-and-drop to Monaco Markdown editors (GitHub, Gitea, GitLab)",
+  "description": "Userscript bringing block drag-and-drop to web Markdown editors (GitHub, Gitea, GitLab)",
   "private": true,
   "type": "module",
   "scripts": {

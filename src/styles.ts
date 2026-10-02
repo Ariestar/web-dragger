@@ -54,9 +54,9 @@ export const STYLES = `
 `;
 
 export function injectStyles(): void {
-    if (document.getElementById('monaco-dragger-styles')) return;
+    if (document.getElementById('web-dragger-styles')) return;
     const style = document.createElement('style');
-    style.id = 'monaco-dragger-styles';
+    style.id = 'web-dragger-styles';
     style.textContent = STYLES;
     (document.head || document.documentElement).appendChild(style);
 }

@@ -4,10 +4,10 @@ import esbuild from 'esbuild';
 fs.mkdirSync('dist', { recursive: true });
 
 const banner = `// ==UserScript==
-// @name         Monaco Markdown Block Dragger (GitHub / Gitea)
-// @namespace    https://github.com/Ariestar/md-dragger
+// @name         Web Markdown Block Dragger (GitHub / Gitea)
+// @namespace    https://github.com/Ariestar/web-dragger
 // @version      0.1.0
-// @description  Drag and drop markdown blocks in GitHub, Gitea, and GitLab online Monaco editors
+// @description  Drag and drop markdown blocks in GitHub, Gitea, and GitLab online editors
 // @author       Ariestar
 // @match        https://github.com/*
 // @match        https://*.github.com/*
@@ -27,9 +27,9 @@ await esbuild.build({
     target: 'es2020',
     format: 'iife',
     banner: { js: banner },
-    outfile: 'dist/monaco-dragger.user.js',
+    outfile: 'dist/web-dragger.user.js',
     sourcemap: false,
     minify: false,
 });
 
-console.log('✓ userscript built: dist/monaco-dragger.user.js');
+console.log('✓ userscript built: dist/web-dragger.user.js');
