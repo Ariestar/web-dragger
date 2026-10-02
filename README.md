@@ -16,7 +16,7 @@ Powered by the platform-agnostic core engine [md-dragger](https://github.com/Ari
 1. Install a userscript manager in your browser:
    - [Tampermonkey](https://www.tampermonkey.net/)
    - [Violentmonkey](https://violentmonkey.github.io/)
-2. [Install web-dragger v0.1.0](https://github.com/Ariestar/web-dragger/releases/download/v0.1.0/web-dragger.user.js).
+2. [Install web-dragger](https://raw.githubusercontent.com/Ariestar/web-dragger/main/dist/web-dragger.user.js).
 3. Open any Markdown file editor on GitHub or Gitea (e.g. edit `README.md`), and start dragging!
 
 This is an experimental userscript for testing the new Monaco adapter. It currently requires the page to expose `window.monaco`; browser integration still needs testing.
