@@ -1,0 +1,19 @@
+{
+  "name": "monaco-dragger",
+  "version": "0.1.0",
+  "description": "Userscript bringing block drag-and-drop to Monaco Markdown editors (GitHub, Gitea, GitLab)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "md-dragger": "file:../md-dragger"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "monaco-editor": "^0.57.0",
+    "typescript": "^5.7.3"
+  }
+}
